@@ -17,7 +17,7 @@ namespace web_app.Controllers{
         public string Welcome(){
             return Content("<h1>Welcome!</h1>", "text/html");
         }
-        //GET: /HelloWorld/Goodbye
+        //GET: /HelloWorld/Goodbye/
         public string Goodbye(){
             return Content("<h1>Goodbye!</h1>", "text/html");
         }
