@@ -20,7 +20,12 @@ namespace web_app.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Content("<h1>Hello World UwU</h1>", "text/html");
+        }
+        
+        public IActionResult Goodbye()
+        {
+            return Content("<h1>Goodbye!</h1>", "text/html");
         }
 
         public IActionResult Privacy()
