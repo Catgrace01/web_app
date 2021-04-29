@@ -11,15 +11,15 @@ namespace web_app.Controllers{
     public class HelloWorldController : Controller{
         //GET: /HelloWorld/
         public string Index(){
-            return Content("<h1>Hello World UwU</h1>", "text/html");
+            return "<h1>Hello World UwU</h1>", "text/html";
         }
         //GET: /HelloWorld/Welcome/
         public string Welcome(){
-            return Content("<h1>Welcome!</h1>", "text/html");
+            return "<h1>Welcome!</h1>", "text/html";
         }
         //GET: /HelloWorld/Goodbye
         public string Goodbye(){
-            return Content("<h1>Goodbye!</h1>", "text/html");
+            return "<h1>Goodbye!</h1>", "text/html";
         }
     }
 }
